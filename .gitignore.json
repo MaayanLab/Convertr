@@ -12,3 +12,5 @@ buildNumber.properties
 .idea
 .settings
 *.iml
+.metadata/
+.svn/
