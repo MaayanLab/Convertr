@@ -1,0 +1,19 @@
+{
+    "id": "convertr",
+    "instances": 1,
+    "cpus": 0.5,
+    "mem": 1024,
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "146.203.54.165:5000/convertr:latest",
+            "network": "BRIDGE",
+            "portMappings": [
+                {"containerPort": 8080, "hostPort": 0, "protocol": "tcp" }
+                ]
+        }
+    },
+    "labels": {
+      "public": "true"
+    }
+}
